@@ -1,0 +1,13 @@
+gcp_details:
+  project_name: rag-assistant-456923
+  location: us-central1
+  embedding_model: text-embedding-005
+  service_account_file: /Users/mukund/Downloads/rag-assistant-456923-4e12c37867ae.json
+chunking_parameters:
+  chunk_size: 500
+  chunk_overlap: 50
+embedding_max_tokens: 300
+run_parameters:
+  input_file: "data/file.pdf"
+  output_path: "data/output/output_embeddings"
+  output_file_name: "embedding.json"
