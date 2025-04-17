@@ -19,7 +19,7 @@ import yaml
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 
-class Embedder():
+class Embedder:
     def __init__(self, gcp_details: Dict, chunking_params: Dict):
         project = gcp_details['project_name']
         location = gcp_details['location']

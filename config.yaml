@@ -11,3 +11,5 @@ run_parameters:
   input_file: "data/file.pdf"
   output_path: "data/output/output_embeddings"
   output_file_name: "embedding.json"
+
+bucket_name: japan_travels_v1
