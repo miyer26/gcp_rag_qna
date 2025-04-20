@@ -6,7 +6,6 @@ from typing import List, Dict
 from google.auth.transport.requests import Request
 from google.oauth2 import service_account
 import google.auth
-from google.auth.transport.requests import Request
 
 import vertexai
 from vertexai.language_models import TextEmbeddingModel

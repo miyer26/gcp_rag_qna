@@ -17,6 +17,8 @@ class Vectorstore:
         self.location = gcp_details['location']
         self.service_account_file = gcp_details['service_account_file']
         self.gcp_json_path = f"gs://{bucket_name}/embeddings/{file_name}"
+        self.index_display_name = ""
+        self.deployed_index_id = ""
 
         os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = self.service_account_file
         logger.info(f"Initializing Vertex AI for project={self.project}, {self.location}")
