@@ -3,6 +3,8 @@ gcp_details:
   location: us-central1
   embedding_model: text-embedding-005
   service_account_file: /Users/mukund/Downloads/rag-assistant-456923-4e12c37867ae.json
+  llm: text-bison@001
+
 chunking_parameters:
   chunk_size: 500
   chunk_overlap: 50
@@ -13,3 +15,9 @@ run_parameters:
   output_file_name: "embedding.json"
 
 bucket_name: japan_travels_v1
+
+
+index_display_name: japan_info_endpoint
+deployed_index_id: japan_info_endpoint_v1
+
+question: "Which destinations can you book?"
